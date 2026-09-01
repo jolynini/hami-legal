@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hami Support</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+  :root {
+    --bg: #faf8f3;
+    --ink: #1e2e2c;
+    --ink-muted: #5c6e6a;
+    --accent: #2f6d85;
+    --accent-ink: #1d4b5c;
+    --accent-soft: #e6eef0;
+    --rule: #e1e4de;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #12201f;
+      --ink: #eef3f1;
+      --ink-muted: #a3b8b3;
+      --accent: #7cc2d3;
+      --accent-ink: #bfe4ec;
+      --accent-soft: rgba(124, 194, 211, 0.12);
+      --rule: rgba(255, 255, 255, 0.12);
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #12201f;
+    --ink: #eef3f1;
+    --ink-muted: #a3b8b3;
+    --accent: #7cc2d3;
+    --accent-ink: #bfe4ec;
+    --accent-soft: rgba(124, 194, 211, 0.12);
+    --rule: rgba(255, 255, 255, 0.12);
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--bg); }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  h1, h2, .wordmark { font-family: Quicksand, "Century Gothic", sans-serif; }
+  .shell { max-width: 640px; margin: 0 auto; padding: 48px 24px 96px; }
+  .wordmark { font-weight: 700; font-size: 22px; color: var(--accent-ink); margin-bottom: 32px; }
+  .wordmark span { color: var(--ink-muted); font-weight: 500; }
+  h1 { font-size: 30px; margin: 0 0 12px; text-wrap: balance; }
+  p { margin: 0 0 16px; }
+  .card {
+    background: var(--accent-soft);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+  .card h2 { font-size: 17px; margin: 0 0 8px; }
+  a { color: var(--accent-ink); }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--ink-muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="wordmark">Hami <span>— Support</span></div>
+  <h1>Need help with Hami?</h1>
+  <p>Hami is an AI-assisted companion app for older adults and their families — medication reminders, daily check-ins, routine-based alerts, and a family dashboard, built around noticing changes and connecting people, not diagnosing.</p>
+
+  <div class="card">
+    <h2>Contact us</h2>
+    <p>For questions, feedback, or help with the app, email <a href="mailto:joeloronvaliente@gmail.com">joeloronvaliente@gmail.com</a>. We aim to respond within a few days.</p>
+  </div>
+
+  <div class="card">
+    <h2>Account &amp; data requests</h2>
+    <p>To request an export or deletion of your data, see our <a href="index.html#your-choices">Privacy Policy</a> or email us directly.</p>
+  </div>
+
+  <footer>
+    <p>Hami is developed by Joel Orón Valiente and Aylin Ourang.</p>
+  </footer>
+</div>
+</body>
+</html>
